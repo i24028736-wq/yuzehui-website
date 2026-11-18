@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Maison Serein is a fictional neighbourhood restaurant made for slow evenings and thoughtful food.">
+  <title>Maison Serein — A little longer at the table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- The navigation links match section IDs further down this page. -->
+  <header class="site-header" id="home">
+    <a class="brand" href="#home" aria-label="Maison Serein, home"><span class="brand-mark" aria-hidden="true">✳</span><span>Maison<br><em>Serein</em></span></a>
+    <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#menu">Products / Services</a><a href="#contact">Contact</a></nav>
+    <a class="header-link" href="#contact">Find us <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <!-- Home -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> A neighbourhood table</p>
+        <h1 id="hero-title">A little longer<br><i>at the table.</i></h1>
+        <p class="hero-intro">Seasonal plates, soft light, and good company. Come as you are and stay awhile.</p>
+        <a class="button" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+        <div class="hero-note"><span class="line"></span><span>Made for unhurried evenings</span></div>
+      </div>
+      <figure class="hero-image"><img src="images/hero.jpg" alt="A candlelit restaurant table set with glasses and linen"><figcaption><span>Maison Serein</span><span>Come in, stay awhile</span></figcaption></figure>
+      <p class="hero-side" aria-hidden="true">A quieter kind of evening</p>
+    </section>
+
+    <!-- About -->
+    <section class="about section-wrap" id="about" aria-labelledby="about-title">
+      <div class="section-kicker"><span>Our story</span><span>01 / 04</span></div>
+      <div class="about-grid">
+        <div class="about-photo"><img src="images/about.jpg" alt="A warmly lit restaurant table with candles and greenery" loading="lazy"><p class="image-caption">A place to settle in <span aria-hidden="true">✳</span></p></div>
+        <div class="about-copy"><p class="overline">A seat at our table</p><h2 id="about-title">Good food.<br><i>Time well spent.</i></h2><p>Maison Serein began with a simple thought: the best evenings are rarely rushed. We imagined a little room where familiar faces meet, candles burn low, and the conversation can carry on.</p><p>Our kitchen takes its lead from the season, turning thoughtful ingredients into comforting plates. Nothing too fussy, just care in the details and a warm welcome at the door.</p><a class="text-link" href="#experience">Discover the experience <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="values" aria-label="Our approach"><span><b aria-hidden="true">✳</b> Seasonal ingredients</span><span><b aria-hidden="true">◌</b> Thoughtful cooking</span><span><b aria-hidden="true">✺</b> Room to linger</span></div>
+    </section>
+
+    <!-- Menu: edit each article to change a dish. -->
+    <section class="menu-section" id="menu" aria-labelledby="menu-title"><div class="section-wrap">
+      <div class="section-kicker"><span>From the kitchen</span><span>02 / 04</span></div>
+      <div class="section-heading"><div><p class="overline">A taste of Serein</p><h2 id="menu-title">A few things<br><i>we love to make.</i></h2></div><p>Made with the season in mind, these are a few favourites from our imagined menu.</p></div>
+      <div class="menu-grid">
+        <article class="dish"><img src="images/risotto.jpg" alt="Creamy risotto finished with truffle" loading="lazy"><div class="dish-meta"><span>01 &nbsp; / &nbsp; A warm beginning</span><span>€24</span></div><h3>Truffle risotto</h3><p>Slow-stirred rice, parmesan and a fragrant touch of truffle.</p></article>
+        <article class="dish"><img src="images/fish.jpg" alt="Grilled fish with roasted vegetables on a ceramic plate" loading="lazy"><div class="dish-meta"><span>02 &nbsp; / &nbsp; From the kitchen</span><span>€32</span></div><h3>Market fish</h3><p>Simply grilled fish with roasted vegetables and lemon.</p></article>
+        <article class="dish"><img src="images/pear.jpg" alt="Poached pear dessert with honey and spices" loading="lazy"><div class="dish-meta"><span>03 &nbsp; / &nbsp; Something sweet</span><span>€12</span></div><h3>Poached pear</h3><p>A tender pear, gently spiced and finished with honey.</p></article>
+      </div><p class="menu-footnote">A sample menu for a fictional restaurant. Prices are illustrative.</p>
+    </div></section>
+
+    <!-- Experience and locally embedded video -->
+    <section class="experience section-wrap" id="experience" aria-labelledby="experience-title"><div class="section-kicker"><span>The experience</span><span>03 / 04</span></div>
+      <div class="experience-intro"><p class="large-star" aria-hidden="true">✳</p><div><p class="overline">The pleasure of slowing down</p><h2 id="experience-title">An evening to<br><i>settle into.</i></h2></div><p>There is a certain magic in the everyday ritual of sharing a meal. Pull up a chair, take your time, and let the evening unfold.</p></div>
+      <div class="video-layout"><div class="video-frame"><video controls preload="metadata" poster="images/about.jpg" aria-label="A short film showing pilaf being cooked"><source src="video/cooking-plov.webm" type="video/webm">Your browser cannot play this video. <a href="video/cooking-plov.webm">Download the video</a>.</video></div><div class="video-copy"><span class="round-icon" aria-hidden="true">▶</span><h3>In the kitchen</h3><p>A glimpse of the simple pleasure of cooking: a short film of pilaf being prepared.</p><p class="credit">“Cooking Plov” by <a href="https://commons.wikimedia.org/wiki/File:Cooking_Plov.webm">Lokk1y</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Unchanged.</p></div></div>
+    </section>
+
+    <!-- Contact: demonstration form, with no submission action. -->
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="section-wrap"><div class="section-kicker"><span>Come say hello</span><span>04 / 04</span></div><div class="contact-grid"><div><p class="overline">We would love to see you</p><h2 id="contact-title">There is a place<br><i>for you here.</i></h2><p class="contact-intro">A little corner for good food and even better company.</p><div class="contact-details"><div><h3>Find us</h3><p>18 Rue des Lilas<br>75011 Paris, France</p></div><div><h3>Opening hours</h3><p>Tuesday – Saturday<br>6:00 pm – 10:30 pm</p></div><div><h3>Get in touch</h3><p>hello@maisonserein.example<br>+33 1 00 00 00 00</p></div></div><p class="fiction-note">Maison Serein and its contact details are fictional.</p></div>
+      <div class="form-panel"><h3>Leave a little note</h3><p>This form is a demonstration only. Messages are not sent or saved.</p><form><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Your name"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com"><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="What would you like to say?"></textarea><button class="button button-light" type="button" disabled>Send message <span aria-hidden="true">↗</span></button></form></div></div></div></section>
+  </main>
+  <footer><div class="section-wrap footer-main"><a class="footer-brand" href="#home">Maison <i>Serein</i><span aria-hidden="true"> ✳</span></a><p>For the moments worth lingering over.</p><nav aria-label="Footer navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#menu">Products / Services</a><a href="#contact">Contact</a></nav></div><div class="section-wrap footer-bottom"><span>© 2026 Maison Serein</span><span>A fictional restaurant, created for a web design project.</span><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
